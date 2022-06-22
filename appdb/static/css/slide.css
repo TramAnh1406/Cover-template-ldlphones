@@ -1,0 +1,11 @@
+.box-item-banner img{
+    width: 200px;
+}
+.banner-slide .fix-width .row .col-md-9{
+    height:470px; 
+    background: grey;
+    padding: 0px 20px;
+}
+.banner-slide .fix-width .row .col-md-9 img{
+    width: 100%;
+}
