@@ -1,0 +1,51 @@
+.contact-page .fix-width .row .col-md-6{
+    display: flex;
+    flex-direction: column;
+}
+.contact-page .fix-width .row .col-md-6 .circle-i{
+    position: relative;
+    background: black;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+}
+.contact-page .fix-width .row .col-md-6 i{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.contact-page .fix-width .row .col-md-6 .text{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+.contact-page .fix-width .row .col-md-6 .phone{
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    
+}
+.contact-page .fix-width{
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.contact-title{
+    display: flex;
+    align-items: center;
+}
+.contact-title b{
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+    margin: 0;
+}
+.contact-title h5{
+    font-weight: 700;
+    padding: 0px 20px;
+}
