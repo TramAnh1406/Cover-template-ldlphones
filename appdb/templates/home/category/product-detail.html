@@ -1,0 +1,538 @@
+{% extends 'home/layout/layout.html' %}
+{% block title%} Chi tiết sản phẩm {% endblock %}
+{% block body_class %}contact{% endblock %}
+{% block content %}
+<section class="header-category-product-detail">
+    <div class="container fix-width">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-category">
+                    <a href="/">Trang chủ</a>
+                </div>
+                <div class="text-category">
+                    <a href="">IPhone</a>
+                </div>
+                <div class="text-category">
+                    <a href="">IPhone 13 Series</a>
+                </div>
+                <div class="text-category-product-detail">
+                    <a href="">IPhone 13 Pro Max</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="profile-detail-product">
+    <div class="container fix-width">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="col-md-10">
+                    <div class="name-pd-detail">
+                        <h1>IPhone 13 Pro Max 1TB - Chính Hãng</h1>
+                        <div class="star-rate">
+                            {% for b in range(5) %}
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="14"
+                                height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                            </svg>
+                            {% endfor %}
+                        </div>
+                        <span class="text-rate">0 đánh giá</span>
+                    </div>
+                </div>
+                <div class="detail-flex">
+                    <div class="col-md-5">
+                        <img src="{{url_for('static',filename='images/iphone-web.jpg')}}" alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="price-detail-pd">
+                            <h1>37.990.990 VND</h1>
+                            <span>Trả góp 0%</span>
+                        </div>
+                        <div class="price-detail-other">
+                            <a href="">
+                                <span>128GB</span><br>
+                                <span><strong>29.590.000 đ</strong></span>
+                            </a><br>
+                            <a href="">
+                                <span>256GB</span><br>
+                                <span><strong>32.290.000 đ</strong></span>
+                            </a><br>
+                            <a href="">
+                                <span>512GB</span><br>
+                                <span><strong>37.290.000 đ</strong></span>
+                            </a>
+                        </div>
+                        <span class="color-detail">Màu sắc</span>
+                        <div class="detail-color-pd">
+                            <a href="">
+                                <span>blue</span><br>
+                                <p>37.990.000 đ</p>
+                            </a><br>
+                            <a href="">
+                                <span>gold</span><br>
+                                <p>37.990.000 đ</p>
+                            </a><br>
+                            <a href="">
+                                <span>gray</span><br>
+                                <p>37.990.000 đ</p>
+                            </a><br>
+                            <a href="">
+                                <span>green</span><br>
+                                <p>37.990.000 đ</p>
+                            </a><br>
+                            <a href="">
+                                <span>silver</span><br>
+                                <p>37.990.000 đ</p>
+                            </a><br>
+                        </div>
+                        <div class="box-gift-detail">
+                            <div class="icon-gift">
+                                <a href="">
+                                    <i class="fa-solid fa-gift"></i>Khuyến mãi
+                                </a>
+                            </div>
+                            <ul>
+                                <li>[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ</li>
+                                <li>Trả trước 50%, kỳ hạn 8 tháng (Áp dụng trên GIÁ NIÊM YẾT, không áp dụng cùng các
+                                    khuyến mãi khác)</li>
+                            </ul>
+                        </div>
+                        <button id="button1" type="button">
+                            <strong>mua ngay</strong><br>
+                            <span>chọn sản phẩm và thêm vào giỏ hàng</span>
+                        </button>
+                        <button id="button2">
+                            <span>MUA TRẢ GÓP 0%</span><br>
+                            <span>Thủ tục đơn giản</span>
+                        </button>
+                        <button id="button3">
+                            <span>TRẢ GÓP QUA THẺ</span><br>
+                            <span>Visa, Master, JCB</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="box-uudai">
+                    <h1>nhiều ưu đãi hấp dẫn</h1>
+                    <b></b>
+                    <span>Tặng nón bảo hiểm <span class="color-name">LDLPHONES</span> (Quà tặng khi mua thêm
+                        gói bảo hành LDLPHONES)</span><br>
+                    <span>Miễn phí 1 năm dán cường lực cao cấp.</span><br>
+                    <span>Ốp lưng silicon thời trang</span><br>
+                    <span>Ưu đãi từ 5% - 30% khi mua phụ kiện</span><br>
+                    <span>Hỗ trợ thu máy giá tốt khi lên đời máy</span><br>
+                    <span>Cài đặt ứng dụng miễn phí và phần mềm trọn đời máy</span><br>
+                    <b></b>
+                    <h1>ngoài ra hỗ trợ thêm gói bảo hành vip</h1>
+                    <b></b>
+                    <span>Bảo hành 1 ĐỔI 1 trong 12 tháng - ĐỔI MÁY NEW FULLBOX CHƯA ACTIVE</span><br>
+                    <span>Áp dụng cho trường hợp lỗi phần cứng do máy tự phát sinh</span><br>
+                    <span>KHÔNG áp dụng bảo hành do lỗi người dùng như: rơi, vỡ, cấn móp, vô nước...</span><br>
+                    <span>Chi phí gói BH VIP: 890.000VNĐ</span><br>
+                    <b></b>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="show-product-other">
+    <div class="container fix-width">
+        <h1>Các sản phẩm tương tự</h1>
+        <div class="row">
+            <div class="col-md-12">
+                {% for b in range(4) %}
+                <div class="box-product-hotsale">
+                    <a href="/detail-product">
+                        <img src="{{url_for('static',filename='images/iphone-web.jpg')}}" alt="">
+                    </a>
+                    <div class="profile-product-hotsale">
+                        <a href="/detail-product">IPhone 11 Pro 64GB - Likenew</a>
+                        <span class="price-product-hotsale">11.990.000VND</span>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus"
+                                width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="12" cy="12" r="9" />
+                                <line x1="9" y1="12" x2="15" y2="12" />
+                                <line x1="12" y1="9" x2="12" y2="15" />
+                            </svg>
+                            <span style="color: #2f80ed; font-weight: 500">So sánh</span>
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="describe-pd">
+    <div class="container fix-width">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="box-describe">
+                    <span>Sau một khoảng thời gian xuất hiện dưới dạng rò rỉ thì mới đây Apple đã ra mắt iPhone 13
+                        Series mẫu iPhone cao cấp nhất của hãng. Bên cạnh màu xanh mát lạnh,<strong
+                            class="color-name">iPhone 13 Pro Max</strong> cấu hình
+                        đã được nâng cấp với con chip Apple A15, pin dùng lâu dài hơn và nhiều cải tiến về camera.
+                    </span><br>
+                    <h3>iPhone 13 Pro Max ra mắt với thiết kế độc lạ, có màu xanh dương Sierra Blue</h3>
+                    <span>Xét về phong cách thiết kế thì mình nhận thấy rằng iPhone 13 Pro Max có nhiều nét tương đồng
+                        với <strong class="color-name">iPhone 12 Pro Max</strong>. Thiết bị vẫn sẽ sở hữu khung viền
+                        vuông
+                        vức, mặt lưng kính nhám cùng màn
+                        hình tai thỏ nằm ở phía trước.</span><br>
+                    <img src="{{url_for('static',filename='images/iphone-13-pro-max.jpg')}}" alt="">
+                    <span>
+                        Tuy nhiên, để tăng độ nhận diện cho sản phẩm mới thì Apple đã cung cấp thêm một tùy chọn màu sắc
+                        hoàn toàn mới mang tên Sierra Blue (màu xanh dương nhạt hơn so với Pacific Blue của iPhone 12
+                        Pro Max). Mặc dù vậy thì mình hơi tiếc một chút khi iPhone 13 Pro Max màu hồng và màu cam không
+                        xuất hiện. Bên cạnh màu xanh dương, chúng ta vẫn sẽ có 3 tùy chọn màu sắc cơ bản khác là vàng,
+                        đen và trắng.
+                    </span><br>
+                    <img src="{{url_for('static',filename='images/iphone-13-pro-max-1-1.jpg')}}" alt="">
+                    <span>Giống như những thông tin đã rò rỉ từ trước, phần notch tai thỏ của iPhone 13 Pro Max năm nay
+                        đã được làm bé hơn đôi chút so với iPhone 12 Pro Max. Cá nhân mình đánh giá cao sự thay đổi này
+                        bởi vì đây là việc mà Apple phải làm ngay từ thế hệ iPhone 12 Series chứ không phải là đến dòng
+                        iPhone 13 mới thực hiện.</span><br>
+                    <img src="{{url_for('static',filename='images/iphone-13-pro-max-3.png')}}" alt="">
+                    <span>Nhìn chung thì iPhone 13 Pro Max có phong cách thiết kế không quá thay đổi so với thế hệ cũ.
+                        Sự khác biệt có lẽ đến từ những yếu tố mà mình vừa đề cập ở trên bao gồm: Màu sắc và thiết kế
+                        notch tai thỏ.</span><br>
+                    <h3>Màn hình iPhone 13 Pro Max có tần số quét 120 Hz và được phủ gốm</h3>
+                    <img src="{{url_for('static',filename='images/iphone-13-pro-max-4.jpg')}}" alt="">
+                    <span>Đúng như những kỳ vọng của mình cũng như nhiều người dùng iPhone khác, màn hình iPhone 13 Pro
+                        Max năm nay đã được trang bị tần số quét 120 Hz cùng công nghệ Pro Motion cực kỳ xịn sò. Bên
+                        cạnh đó, chiếc iPhone cao cấp nhất của Apple sở hữu tấm nền OLED, hỗ trợ công nghệ HDR10 cùng
+                        Super Retina XDR cho chất lượng hiển thị sắc nét và chân thực nhất.</span><br>
+                    <img src="{{url_for('static',filename='images/iphone-13-pro-max-5.jpg')}}" alt="">
+                    <span>Nói sơ qua một chút về công nghệ ProMotion thì đây là công nghệ cho phép iPhone 13 Pro Max có
+                        thể tự động điều chỉnh tốc độ làm tươi dựa vào nội dung hiển thị để tối ưu hóa điện năng tiêu
+                        thụ. Nếu bạn cần dùng màn hình để chơi game, xem phim thì tốc độ 120 Hz sẽ được sử dụng còn đối
+                        với những tác vụ nhẹ hơn và tùy vào nội dung mà màn hình sẽ đưa ra những tần số hợp lý hơn (dao
+                        động từ 10 - 120 Hz).</span><br>
+                    <h3>iPhone 13 Pro Max camera cải tiến với nhiều công nghệ, tính năng mới</h3>
+                    <span>Một trong những nhấn chính của mẫu iPhone 13 Pro Max chính là cụm camera sau của máy. iPhone
+                        13 Pro Max đã được trang bị camera tele 77 mm hoàn toàn mới, giúp máy có thể zoom quang lên tới
+                        3x. Bên cạnh đó, camera góc siêu rộng của chiếc smartphone này dù vẫn giữ độ phân giải 12 MP
+                        nhưng được Apple cải tiến với khả năng tự động lấy nét, chụp đêm tốt hơn và có thêm khả năng
+                        chụp cận cảnh (cho phép lấy nét với khoảng cách chỉ 2 cm). Còn về camera chính của máy sẽ có độ
+                        phân giải 12 MP với cảm biến lớn hơn.</span><br>
+                    <img src="{{url_for('static',filename='images/iphone-13-pro-max-8.jpg')}}" alt="">
+                    <span>Bên cạnh thông số, camera sau của iPhone 13 Pro Max cũng được bổ sung thêm nhiều tính năng
+                        chụp hình và quay phim chuyên nghiệp. Chẳng hạn như tính năng Photographic styles cho phép người
+                        dùng chỉnh sửa ảnh trong thời gian thực theo ý thích hay tính năng Cinematic Mode kết hợp với
+                        cảm biến LiDAR cho phép quay video chuyên nghiệp hơn.</span><br>
+                    <img src="{{url_for('static',filename='images/iphone-13-pro-max-7.jpg')}}" alt="">
+                    <span>Đặc biệt, iPhone 13 Pro Max còn hỗ trợ tính năng ProRes Video cho phép người dùng quay video
+                        ProRes 4K/30 FPS. Cá nhân mình nghĩ đây sẽ là một tính năng rất phù hợp cho những bạn nào thích
+                        quay video làm vlog hoặc đơn giản là quay lại video kỉ niệm mỗi khi đi chơi cùng gia đình, bạn
+                        bè.</span><br>
+                    <h3>iPhone 13 Pro Max cấu hình mạnh hơn với chip Apple 15 Bionic</h3>
+                    <span>Thông số cấu hình iPhone 13 Pro Max cụ thể như sau: </span><br>
+                    <ol>
+                        <li>Màn hình: Kích thước 6.7 inch, tấm nền OLED, hỗ trợ tần số quét 120 Hz ProMotion, hỗ trợ
+                            HDR10, Super Retina XDR.</li>
+                        <li>CPU: Apple A15 Bionic, hỗ trợ 5G.</li>
+                        <li>Bộ nhớ trong: 128 GB, 256 GB, 512 GB và 1 TB.</li>
+                        <li>Camera sau: 12 MP + 12 MP + 12 MP</li>
+                        <li>Pin dùng lâu hơn 2.5 tiếng so với iPhone 12 Pro Max.</li>
+                        <li>Hỗ trợ sạc nhanh 20 W, sạc MagSafe 15 W</li>
+                    </ol>
+                    <h5>LDL Phones - Cửa hàng bán IPhone uy tín tại TPHCM</h5>
+                    <div class="contact-profile">
+                        <span class="text-color">
+                            <strong>Địa chỉ:</strong>
+                            496 Quang Trung, Phường 10, Gò Vấp, Thành phố Hồ Chí Minh
+                        </span><br>
+                        <span class="text-color">
+                            <strong>Hotline bán hàng:</strong>
+                            <a href="">097.42.666.42</a>
+                        </span><br>
+                        <span class="text-color">
+                            <strong>Hotline thu mua:</strong>
+                            <a href="">0931.903.068</a>
+                        </span><br>
+                        <span class="text-color">
+                            <strong>Email:</strong>
+                            ldlphones.ntt@gmail.com
+                        </span><br>
+                        <span class="text-color">
+                            <strong>Website:</strong>
+                            <a href="https://ldlphones.com.vn/">https://ldlphones.com.vn/</a>
+                        </span><br>
+                        <span class="text-color">
+                            <strong>Fanpage:</strong>
+                            <a href="https://www.facebook.com/LDLPhones/">https://www.facebook.com/LDLPhones/</a>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="box-specifications">
+                    <h3>Thông số kỹ thuật</h3>
+                    <div class="specifications">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Kích thước màn hình</td>
+                                    <td>6.67 inches</td>
+                                </tr>
+                                <tr>
+                                    <td>Công nghệ màn hình</td>
+                                    <td>AMOLED</td>
+                                </tr>
+                                <tr>
+                                    <td>Camera sau</td>
+                                    <td>Camera góc rộng: 108 MP, f/1.9, 26mm , 1/1.52″, 0.7µm, dual pixel PDAF
+                                        Camera góc siêu rộng: 8 MP, f/2.2, 118˚, 1/4.0″, 1.12µm
+                                        Camera macro: 5 MP, f/2.4, AF
+                                        Cảm biến chiều sâu: 2 MP, f/2.4</td>
+                                </tr>
+                                <tr>
+                                    <td>Camera trước</td>
+                                    <td>16 MP, f/2.5, 1/3.06″, 1.0µm</td>
+                                </tr>
+                                <tr>
+                                    <td>Chipset</td>
+                                    <td>Snapdragon 732G (8 nm)</td>
+                                </tr>
+                                <tr>
+                                    <td>Dung lượng RAM</td>
+                                    <td>8 GB</td>
+                                </tr>
+                                <tr>
+                                    <td>Bộ nhớ trong</td>
+                                    <td>128 GB</td>
+                                </tr>
+                                <tr>
+                                    <td>Pin</td>
+                                    <td>Li-Po 5020 mAh</td>
+                                </tr>
+                                <tr>
+                                    <td>Thẻ sim</td>
+                                    <td>2 SIM (Nano-SIM)</td>
+                                </tr>
+                                <tr>
+                                    <td>Hệ điều hành</td>
+                                    <td>Android 11, MIUI 12</td>
+                                </tr>
+                                <tr>
+                                    <td>Độ phân giải màn hình</td>
+                                    <td>1080 x 2400 pixels (FullHD+)</td>
+                                </tr>
+                                <tr>
+                                    <td>Tính năng màn hình</td>
+                                    <td>Hỗ trợ hiển thị 10 tỷ màu, tần số quét 120Hz, HDR10, độ sáng tối đa 1200
+                                        nits, mặt kính Corning Gorilla Glass 5</td>
+                                </tr>
+                                <tr>
+                                    <td>Loại CPU</td>
+                                    <td>8 nhân ( 2×2.3 GHz Kryo 470 Gold & 6×1.8 GHz Kryo 470 Silver )</td>
+                                </tr>
+                                <tr>
+                                    <td>GPU</td>
+                                    <td>Adreno 618</td>
+                                </tr>
+                                <tr>
+                                    <td>Quay video</td>
+                                    <td>HD 720p@960fps
+                                        FullHD 1080p@120fps
+                                        HD 720p@30fps
+                                        FullHD 1080p@60fps
+                                        FullHD 1080p@30fps
+                                        4K 2160p@30fps</td>
+                                </tr>
+                                <tr>
+                                    <td>Quay video trước</td>
+                                    <td>1080p@30fps, 720p@120fps</td>
+                                </tr>
+                                <tr>
+                                    <td>Kích thước</td>
+                                    <td>164 x 76.5 x 8.1 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Trọng lượng</td>
+                                    <td>193g</td>
+                                </tr>
+                                <tr>
+                                    <td>Chất liệu mặt lưng</td>
+                                    <td>Kính</td>
+                                </tr>
+                                <tr>
+                                    <td>Chất liệu khung viền</td>
+                                    <td>Kim loại</td>
+                                </tr>
+                                <tr>
+                                    <td>Công nghệ sạc</td>
+                                    <td>Sạc nhanh 33W</td>
+                                </tr>
+                                <tr>
+                                    <td>Cổng sạc</td>
+                                    <td>USB Type-C</td>
+                                </tr>
+                                <tr>
+                                    <td>Hồng ngoại</td>
+                                    <td>Có</td>
+                                </tr>
+                                <tr>
+                                    <td>Jack tai nghe 3.5</td>
+                                    <td>Có </td>
+                                </tr>
+                                <tr>
+                                    <td>Cảm biến vân tay</td>
+                                    <td>Cảm biến vân tay cạnh bên</td>
+                                </tr>
+                                <tr>
+                                    <td>Các loại cảm biến</td>
+                                    <td>Cảm biến ánh sáng, Cảm biến áp kế, Cảm biến gia tốc, Cảm biến tiệm cận, Con
+                                        quay hồi chuyển, La bàn</td>
+                                </tr>
+                                <tr>
+                                    <td>Công nghệ NFC</td>
+                                    <td>Không</td>
+                                </tr>
+                                <tr>
+                                    <td>Khe cắm thẻ nhớ</td>
+                                    <td>microSD</td>
+                                </tr>
+                                <tr>
+                                    <td>Wi-Fi</td>
+                                    <td>Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot</td>
+                                </tr>
+                                <tr>
+                                    <td>Bluetooth</td>
+                                    <td>5.1, A2DP, LE</td>
+                                </tr>
+                                <tr>
+                                    <td>GPS</td>
+                                    <td>Có, hỗ trợ A-GPS, GLONASS, GALILEO, BDS</td>
+                                </tr>
+                                <tr>
+                                    <td>Kiểu màn hình</td>
+                                    <td>Đục lỗ (Nốt ruồi)</td>
+                                </tr>
+                                <tr>
+                                    <td>Tính năng camera</td>
+                                    <td>Chụp macro, Chụp góc rộng, Chụp xóa phông, Quay video 4K</td>
+                                </tr>
+                                <tr>
+                                    <td>Tính năng đặc biệt</td>
+                                    <td>Nhận diện khuôn mặt, Bảo mật vân tay</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="box-rate">
+                    <h3>đánh giá sản phẩm</h3>
+                    <div class="box-select-star">
+                        <div class="col-md-3">
+                            <div class="show-star">
+                                <p>sao trung bình</p>
+                                <span>
+                                    <p>0</p>trên 5
+                                </span><br>
+                                <div class="star-rate">
+                                    {% for b in range(5) %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bar-ratestar">
+                                <div id="rate1" class="bar-rate">
+                                    <span>5</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    <span class="bar">0%</span>
+                                    <span>0</span>
+                                </div>
+                                <div id="rate2" class="bar-rate">
+                                    <span>4</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    <span class="bar">0%</span>
+                                    <span>0</span>
+                                </div>
+                                <div id="rate3" class="bar-rate">
+                                    <span>3</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    <span class="bar">0%</span>
+                                    <span>0</span>
+                                </div>
+                                <div id="rate4" class="bar-rate">
+                                    <span>2</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    <span class="bar">0%</span>
+                                    <span>0</span>
+                                </div>
+                                <div id="rate5" class="bar-rate">
+                                    <span>1</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    <span class="bar">0%</span>
+                                    <span>0</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="button-send">
+                                <button type="button">
+                                    Gửi đánh giá của bạn
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show-comment-rate">
+                        <span>Sản phẩm của có đánh giá nào.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+{% endblock %}

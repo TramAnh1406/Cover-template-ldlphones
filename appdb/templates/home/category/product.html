@@ -1,0 +1,129 @@
+{% extends 'home/layout/layout.html' %}
+{% block title%} Danh mục sản phẩm {% endblock %}
+{% block body_class %}contact{% endblock %}
+{% block content %}
+<section class="header-category-product">
+    <div class="container fix-width">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="text-category">
+                    <a href="/">Trang chủ</a>
+                </div>
+                <div class="text-category-product">
+                    <a href="">IPhone</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="pagination-text">
+                    <p>Hiển thị 1-20 của 42 kết quả</p>
+                    <select name="orderby" id="">
+                        <option value="" selected>Thứ tự mặc định</option>
+                        <option value="">Thứ tự theo mức phổ biến</option>
+                        <option value="">Thứ tự theo điểm đánh giá</option>
+                        <option value="">Mới nhất</option>
+                        <option value="">Thứ tự theo giá: thấp đến cao</option>
+                        <option value="">Thứ tự theo giá: cao xuống thấp</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="slide-banner-qc">
+    <div class="container fix-width">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="swiper qcSwiper">
+                    <div class="swiper-wrapper">
+                        <img class="swiper-slide" src="{{url_for('static',filename='images/banner-qc1.jpg')}}" alt="">
+                        <img class="swiper-slide" src="{{url_for('static',filename='images/banner-qc2.jpg')}}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="swiper qcSwiper">
+                    <div class="swiper-wrapper">
+                        <img class="swiper-slide" src="{{url_for('static',filename='images/banner-qc3.jpg')}}" alt="">
+                        <img class="swiper-slide" src="{{url_for('static',filename='images/banner-qc4.jpg')}}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="content-product-category">
+    <div class="container fix-width">
+        <div class="title-category">
+            <h3>Chọn theo tiêu chí</h3>
+            <select name="" id="">
+                <option value="" disabled selected hidden>Bất kỳ giá</option>
+                <option value="15-20 triệu">15-20 triệu</option>
+                <option value="trên 20 triệu">Trên 20 triệu</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled selected hidden>Bất kỳ thương hiệu</option>
+                <option value="Apple">Apple</option>
+            </select>
+            <select name="" id="">
+                <option value="" disabled selected hidden>Bất kỳ bộ nhớ trong</option>
+                <option value="">64GB</option>
+                <option value="">128GB</option>
+                <option value="">1TB</option>
+                <option value="">256GB</option>
+                <option value="">512GB</option>
+                <input type="text" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false"
+                    role="combobox" aria-autocomplete="list" aria-expanded="true">
+            </select>
+        </div>
+        <div class="row">
+            {% for b in range(4) %}
+            <div class="col-md-12">
+                {% for a in range(5) %}
+                <div class="box-product-hotsale">
+                    <a href="/detail-product">
+                        <img src="{{url_for('static',filename='images/iphone-web.jpg')}}" alt="">
+                    </a>
+                    <div class="profile-product-hotsale">
+                        <a href="/detail-product">IPhone 13 Pro Max 1TB - Chính Hãng</a>
+                        <span class="price-product-hotsale">37.990.000VND</span>
+                        <span class="box-hidden">
+                            [HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ
+                        </span>
+                        <div class="star-rate">
+                            {% for b in range(5) %}
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="14"
+                                height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                            </svg>
+                            {% endfor %}
+                        </div>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus"
+                                width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="12" cy="12" r="9" />
+                                <line x1="9" y1="12" x2="15" y2="12" />
+                                <line x1="12" y1="9" x2="12" y2="15" />
+                            </svg>
+                            <span style="color: #2f80ed; font-weight: 500">So sánh</span>
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+            <div class="pagination-category">
+                <a href="" class="active">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+{% endblock %}

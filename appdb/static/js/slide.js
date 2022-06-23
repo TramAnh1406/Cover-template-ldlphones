@@ -21,3 +21,12 @@ var swiper = new Swiper('.customerSwiper', {
     disableOnInteraction: false,
   },
 })
+
+var swiper = new Swiper('.qcSwiper', {
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+    
+  },
+  
+})

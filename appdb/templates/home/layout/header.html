@@ -4,7 +4,9 @@
             <div class="container fix-width">
                 <div class="header-main">
                     <div class="col-md-5">
-                        <img src="{{url_for('static', filename='images/logo.png')}}" alt="">
+                        <a href="/">
+                            <img src="{{url_for('static', filename='images/logo.png')}}" alt="">
+                        </a>
                         <div class="form_search">
                             <input type="text" placeholder="Bạn cần tìm gì">
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -58,29 +60,90 @@
                         <ul class="list_header_category_ul">
                             <li class="list_li">
                                 <img src="{{url_for('static', filename='images/iphone.png')}}" alt="">
-                                <a href="">iPhone</a>
+                                <a href="/danh-muc">iPhone</a>
                                 <i class="fa-solid fa-angle-down"></i>
-                                <div class="dropdown-content">
-                                    <a href="">IPhone 13 Series</a>
-                                    <a href="">IPhone 12 Series</a>
-                                    <a href="">IPhone 11 Series</a>
-                                    <a href="">IPhone XS / XS Max</a>
-                                    <a href="">IPhone X</a>
-                                    <a href="">IPhone 8</a>
-                                    <a href="">IPhone 7</a>
-                                </div>
+                                <ul class="dropdown-content">
+                                    <li>
+                                        <a href="">IPhone 13 Series</a>
+                                        <ul class="dropdown-content">
+                                            <li>
+                                                <a href="">IPhone 13 Pro Max</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Phone 13 Pro</a>
+                                            </li>
+                                            <li><a href="">Phone 13</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">IPhone 12 Series</a>
+                                        <!-- <ul id="ip12" class="dropdown-content">
+                                            <li>
+                                                <a href="">IPhone 12 Pro Max</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Phone 12 Pro</a>
+                                            </li>
+                                            <li><a href="">Phone 12</a></li>
+                                        </ul> -->
+                                    </li>
+                                    <li>
+                                        <a href="">IPhone 11 Series</a>
+                                        <!-- <ul id="ip11" class="dropdown-content">
+                                            <li>
+                                                <a href="">IPhone 11 Pro Max</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Phone 11 Pro</a>
+                                            </li>
+                                            <li><a href="">Phone 11</a></li>
+                                        </ul> -->
+                                    </li>
+                                    <li>
+                                        <a href="">IPhone XS / XS Max</a>
+                                    </li>
+                                    <li>
+                                        <a href="">IPhone X</a>
+                                    </li>
+                                    <li>
+                                        <a href="">IPhone 8</a>
+                                    </li>
+                                    <li>
+                                        <a href="">IPhone 7</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="list_li">
                                 <img src="{{url_for('static', filename='images/ipad.png')}}" alt="">
                                 <a href="">iPad</a>
                                 <i class="fa-solid fa-angle-down"></i>
-                                <div class="dropdown-content">
-                                    <a href="">IPad Pro</a>
-                                    <a href="">IPad Air</a>
-                                    <a href="">IPad Mini</a>
-                                    <a href="">IPad Gen</a>
-                                    
-                                </div>
+                                <ul class="dropdown-content">
+                                    <li>
+                                        <a href="">IPhone 13 Series</a>
+                                        <ul class="dropdown-content">
+                                            <li>
+                                                <a href="">IPhone 13 Pro Max</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Phone 13 Pro</a>
+                                            </li>
+                                            <li><a href="">Phone 13</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="">IPad Pro</a>
+
+                                    </li>
+                                    <li>
+                                        <a href="">IPad Air</a>
+                                    </li>
+                                    <li>
+                                        <a href="">IPad Mini</a>
+                                    </li>
+                                    <li>
+                                        <a href="">IPad Gen</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="list_li">
                                 <img src="{{url_for('static', filename='images/macbook.png')}}" alt="">

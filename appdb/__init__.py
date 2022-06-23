@@ -10,3 +10,11 @@ def home():
 @app.route("/contact")
 def contact():
     return render_template('home/contact/contact.html')
+
+@app.route("/danh-muc")
+def category():
+    return render_template('home/category/product.html')
+
+@app.route("/detail-product")
+def detailproduct():
+    return render_template('home/category/product-detail.html')

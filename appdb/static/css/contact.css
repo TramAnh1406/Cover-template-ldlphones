@@ -6,11 +6,11 @@
     position: relative;
     background: black;
     border-radius: 100%;
-    width: 65px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
 }
 .contact-page .fix-width .row .col-md-6 i{
-    font-size: 30px;
+    font-size: 23px;
     color: white;
     position: absolute;
     top: 50%;
@@ -19,9 +19,10 @@
 }
 .contact-page .fix-width .row .col-md-6 .text{
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 15px;
     color: black;
     font-weight: 600;
+    padding-top: 10px;
 }
 .contact-page .fix-width .row .col-md-6 .phone{
     font-size: 14px;
@@ -48,4 +49,48 @@
 .contact-title h5{
     font-weight: 700;
     padding: 0px 20px;
+}
+.text-color a{
+    color: #F58634;
+}
+.text-color{
+    font-size: 13px;
+    line-height: 2.8;
+}
+.list-contact-media{
+    display:flex;
+
+}
+.list-contact-media a{
+    margin: 0px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: relative;
+    color: #FFF;
+}
+.list-contact-media a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#icon-fb{
+    background: #3a589d;
+}
+#icon-ig{
+    background: #3b6994;
+}
+#icon-twitter{
+    background: #2478ba;
+}
+#icon-pinterest{
+    background: #CB2320;
+}
+#icon-linkedin{
+    background: #0072b7;
+}
+#icon-youtube{
+    background: #C33223;
 }
