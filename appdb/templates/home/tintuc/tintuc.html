@@ -1,0 +1,59 @@
+{% extends 'home/layout/layout.html' %}
+{% block title%} LDL Phones - Cửa Hàng Bán IPhone Uy Tín Tại TPHCM {% endblock %}
+{% block body_class %}home{% endblock %}
+{% block content %}
+<section class="tintuc">
+    <div class="container fix-width">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="box-tintuc-slide">
+                    <img src="{{url_for('static',filename='images/cach-an-ung-dung-tren-iphone-2.jpg')}}" alt="">
+                    <div class="text-sm">
+                        <span>tin công nghệ</span>
+                    </div>
+                    <div class="text-l">
+                        <h5>Cách ẩn ứng dụng trên IPhone</h5>
+                    </div>
+                    <div class="line-b"></div>
+                </div>
+                <div class="box-slide-bottom">
+                    {% for item in range(3)%}
+                    <div class="col-md-4">
+                        <img src="{{url_for('static',filename='images/cach-an-ung-dung-tren-iphone-2.jpg')}}" alt="">
+                        <h4>Tìm hiểu ngay cách chia đôi màn hình IPhone cực nhanh chóng</h4>
+                        <div class="line-slide"></div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <!-- <div class="col-md-4"></div>
+                <div class="col-md-4"></div> -->
+            </div>
+            <div class="col-md-5">
+                <div class="box-tintuc-right">
+                    <h3>Mở hộp/Trên tay nhanh</h3>
+                    {% for a in range(5) %}
+                    <div class="box-tintuc-list">
+                        <div class="col-md-7">
+                            <h4>Cận cảnh OPPO Reno6 phiên bản màu "Tím Mộng Mơ",đẹp hơn IPhone 12.</h4>
+                            <div class="date-tintuc">
+                                <i class="fa-solid fa-clock"></i>
+                                <span>23/10/2021</span>
+                            </div>
+                            <div class="line-list"></div>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="{{url_for('static',filename='images/cach-an-ung-dung-tren-iphone-2.jpg')}}"
+                                alt="">
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</section>
+{% endblock %}
