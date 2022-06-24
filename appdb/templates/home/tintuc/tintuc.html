@@ -25,8 +25,7 @@
                     </div>
                     {% endfor %}
                 </div>
-                <!-- <div class="col-md-4"></div>
-                <div class="col-md-4"></div> -->
+
             </div>
             <div class="col-md-5">
                 <div class="box-tintuc-right">
@@ -48,11 +47,56 @@
                     </div>
                     {% endfor %}
                 </div>
-
-
             </div>
-
-
+        </div>
+    </div>
+</section>
+<section class="tintuc-list-new">
+    <div class="container fix-width">
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Tin mới nhất</h3>
+                {% for a in range(10) %}
+                <div class="box-tintuc-list-left">
+                    <div class="col-md-4">
+                        <img src="{{url_for('static',filename='images/cach-an-ung-dung-tren-iphone-2.jpg')}}" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <h4>Cận cảnh OPPO Reno6 phiên bản màu "Tím Mộng Mơ",đẹp hơn IPhone 12.</h4>
+                        <div class="date-tintuc">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>23/10/2021</span>
+                        </div>
+                        <div class="line-list"></div>
+                        <span>Có rất nhiều trường hợp người dùng vô tình óa bỏ đi những hình ảnh đang lưu trữ trong mục
+                            Ảnh trên IPhone. Lúc này đây bạn mới chợt nhớ ra là mình cần phải sử dụng những hình ảnh này
+                            thì những thông tin</span>
+                    </div>
+                </div>
+                {%endfor%}
+                
+            </div>
+            <div class="col-md-4">
+                <div class="box-tintuc-right">
+                    <h3>Đánh giá</h3>
+                    {% for a in range(8) %}
+                    <div class="box-tintuc-list">
+                        <div class="col-md-7">
+                            <h4>Cận cảnh OPPO Reno6 phiên bản màu "Tím Mộng Mơ",đẹp hơn IPhone 12.</h4>
+                            <div class="date-tintuc">
+                                <i class="fa-solid fa-clock"></i>
+                                <span>23/10/2021</span>
+                            </div>
+                            <div class="line-list"></div>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="{{url_for('static',filename='images/cach-an-ung-dung-tren-iphone-2.jpg')}}"
+                                alt="">
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
         </div>
     </div>
 </section>
