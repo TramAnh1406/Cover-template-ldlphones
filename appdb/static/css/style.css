@@ -10,7 +10,9 @@ a {
     text-decoration: none !important;
     color: white;
 }
-
+a:hover {
+    color: currentColor !important;
+}
 .fix-width {
     max-width: 1366px;
     margin: 0 auto;
@@ -81,6 +83,7 @@ a {
     width: 20%;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .text_list {
@@ -90,14 +93,19 @@ a {
 }
 
 .list_header i {
-    font-size: 20px;
-    margin-right: 8px;
+    font-size: 16px;
+    margin: 0;
 }
 
-.text_list p {
-    margin: 0;
+.text_list a:hover {
+    color: white;
+
+}
+
+.text_list #hotline {
     font-weight: 500;
-    font-size: 11px;
+    font-size: 9px;
+    letter-spacing: 0;
 }
 
 .text_list a {
@@ -108,11 +116,16 @@ a {
 }
 
 .text_list strong {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .text_list:first-letter {
     text-transform: capitalize;
+}
+
+.list_item:hover {
+    background: #cecece73;
+    border-radius: 5px;
 }
 
 .header-category {
@@ -262,9 +275,11 @@ footer .fix-width .row span {
     padding: 3px 0px;
     font-size: 14px;
 }
-.list-footer-support a:hover{
+
+.list-footer-support a:hover {
     color: black;
 }
+
 .list-footer-support img {
     width: 20px;
     height: 20px;
