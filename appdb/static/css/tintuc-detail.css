@@ -224,7 +224,8 @@
     color: #F58634;
     font-weight: 500;
 }
-.quest-other a:hover{
+
+.quest-other a:hover {
     color: black;
 }
 
@@ -269,9 +270,11 @@
 .service-other .list-service-other .box-service .col-md-3 a img {
     width: 100%;
 }
-.service-other .list-service-other .box-service .col-md-9 a{
+
+.service-other .list-service-other .box-service .col-md-9 a {
     color: black;
 }
+
 .service-other .list-service-other .box-service .col-md-9 a h4 {
     font-size: 14px;
     font-weight: 700;
@@ -292,4 +295,20 @@
     margin: 0;
     margin-top: 10px;
     width: 4%;
+}
+
+#div1, #div2 {
+    display: flex;
+    align-items: center;
+}
+
+#div1::before {
+    content: "<";
+    margin-right: 5px;
+    color: #F58634;
+}
+#div2::after{
+    content:">";
+    margin-left: 5px;
+    color: #F58634;
 }

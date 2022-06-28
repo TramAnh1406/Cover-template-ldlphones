@@ -1,0 +1,26 @@
+@media (min-width: 1366px) {
+    .container {
+        max-width: 1230px !important;
+    }
+}
+
+@media (max-width:1366px) {
+    .form_search {
+        width: 65%;
+        height: 30px;
+    }
+
+    .form_search input {
+        font-size: 12px;
+    }
+
+    .form_search i {
+        font-size: 14px;
+    }
+
+    .header-bg:nth-child(2) {
+        height: 60px;
+    }
+    .box-item-banner img{
+    }
+}

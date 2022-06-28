@@ -93,7 +93,7 @@ a:hover {
 }
 
 .list_header i {
-    font-size: 16px;
+    font-size: 20px;
     margin: 0;
 }
 
@@ -104,7 +104,7 @@ a:hover {
 
 .text_list #hotline {
     font-weight: 500;
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0;
 }
 
@@ -116,7 +116,7 @@ a:hover {
 }
 
 .text_list strong {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .text_list:first-letter {
@@ -129,13 +129,14 @@ a:hover {
 }
 
 .header-category {
-    height: 60px;
+    /* height: 60px; */
 }
 
 .list_header_category .list_header_category_ul {
     display: flex;
-    padding: 18px 5px;
+    /* padding: 18px 5px; */
     margin: 0;
+    padding: 0;
 }
 
 .list_header_category ul .list_li {
