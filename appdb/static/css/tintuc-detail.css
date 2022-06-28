@@ -1,0 +1,295 @@
+.tintuc-detail {
+    background-image: url('../images/cach-chia-se-wifi-tren-iphone-2.jpg');
+    background-size: cover;
+}
+
+.tintuc-detail .row {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.title-detail {
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-detail h5 {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 700;
+}
+
+.content-detail-tintuc img {
+    width: 100%;
+}
+
+.content-detail-tintuc h4 {
+    margin-top: 10px;
+}
+
+.content-detail-tintuc #ul2 li {
+    list-style: none;
+}
+
+.content-detail-tintuc #ul2 {
+    padding: 0;
+}
+
+.title-detail span {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.title-detail .line-detail {
+    width: 2%;
+    height: 2px;
+    margin-top: 15px;
+    background: #FFF;
+    opacity: .7;
+}
+
+.tintuc-detail p {
+    text-transform: uppercase;
+    opacity: 0.7;
+    color: #FFF;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#header {
+    float: right;
+    height: auto;
+    width: 230px;
+    background: #f3f3f3;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+.content-tintuc .fix-width .row .col-md-8 {
+    padding: 40px 0px;
+}
+
+.content-tintuc .fix-width .row .col-md-8 h5 {
+    font-weight: 700;
+}
+
+.header-box {
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-box i {
+    margin: 0;
+}
+
+.header-box span {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
+
+.header-box button {
+    border: none;
+    background: none;
+    width: 20px;
+}
+
+.content-detail-tintuc p, .content-detail-tintuc ul li {
+    font-size: 13px;
+}
+
+.content-detail-tintuc h4 {
+    font-size: 21px;
+}
+
+#header ol {
+    font-size: 13.2px;
+    font-weight: 700;
+    padding: 5px 10px;
+    padding-left: 32px;
+    margin: 0;
+}
+
+#header ol li a {
+    color: #333333;
+}
+
+.content-detail-tintuc strong {
+    color: #F58634;
+}
+
+.content-detail-tintuc ul {
+    padding-left: 20px;
+}
+
+.content-detail-tintuc ul li {
+    margin-bottom: 12px;
+}
+
+.box-tintuc-detail {
+    display: flex;
+    align-items: center;
+}
+
+.list-tintuc-detail {
+    padding: 40px 0px;
+}
+
+.list-tintuc-detail .box-tintuc-detail .col-md-7, .list-tintuc-detail .box-tintuc-detail .col-md-5 {
+    margin: 0;
+}
+
+.box-tintuc-detail .col-md-7 h4 {
+    font-size: 13.5px;
+    font-weight: 700;
+}
+
+.list-tintuc-detail .box-tintuc-detail .col-md-5 {
+    padding: 10px;
+}
+
+.list-tintuc-detail .box-tintuc-detail .col-md-5 img {
+    width: 100%;
+}
+
+.line-end {
+    height: 3px;
+    display: block;
+    background-color: rgba(0, 0, 0, .1);
+    margin: 1em 0 1em;
+    width: 100%;
+    max-width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-tintuc .col-md-8 .contact-profile .text-color {
+    font-weight: 500;
+}
+
+.content-tintuc .col-md-8 .list-contact-media a {
+    border-radius: 15%;
+    margin-right: 2px0;
+}
+
+.content-tintuc .col-md-8 .list-contact-media {
+    justify-content: center;
+}
+
+.mota-ldl {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.mota-ldl .col-md-2, .mota-ldl .col-md-10, .service-other .list-service-other .box-service .col-md-3, .service-other .list-service-other .box-service .col-md-9 {
+    margin: 0;
+}
+
+.mota-ldl .col-md-2 img {
+    border-radius: 50%;
+    width: 100%;
+    padding: 15px;
+}
+
+.mota-ldl .col-md-10 span {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.mota-ldl .col-md-10 p {
+    font-size: 13px;
+}
+
+.quest-other {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ECECEC;
+    border-left: none;
+    border-right: none;
+}
+
+.quest-other a {
+    font-size: 13px;
+    color: #F58634;
+    font-weight: 500;
+}
+.quest-other a:hover{
+    color: black;
+}
+
+.text-other-left, .text-other-right {
+    padding: 15px 5px;
+}
+
+.border-center {
+    border: 1px solid #ECECEC;
+    height: 54px;
+}
+
+.service-other {
+    padding: 30px 0px;
+    padding-bottom: 50px;
+}
+
+.service-other h3 {
+    font-size: 20px;
+    color: #FFF;
+    background: #F58634;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0;
+}
+
+.service-other .list-service-other .box-service {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 0 1px 3px -2px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    margin-bottom: 12px;
+}
+
+.service-other .list-service-other .box-service .col-md-3 {
+    padding-right: 20px;
+}
+
+.service-other .list-service-other .box-service .col-md-3 a img {
+    width: 100%;
+}
+.service-other .list-service-other .box-service .col-md-9 a{
+    color: black;
+}
+.service-other .list-service-other .box-service .col-md-9 a h4 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.service-other .list-service-other .box-service .col-md-9 .date-tintuc {
+    font-size: 9px;
+}
+
+.service-other .list-service-other .box-service .col-md-9 span {
+    font-size: 12px;
+}
+
+.service-other .list-service-other .box-service .col-md-9 .line-list {
+    border-bottom: 1px solid #CECECE;
+    margin: 0;
+    margin-top: 10px;
+    width: 4%;
+}

@@ -53,6 +53,9 @@
 .text-color a{
     color: #F58634;
 }
+.text-color a:hover{
+    color: black !important;
+}
 .text-color{
     font-size: 13px;
     line-height: 2.8;
