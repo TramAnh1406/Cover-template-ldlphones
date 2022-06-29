@@ -90,15 +90,14 @@
 
 .date-tintucs {
     color: gray;
-    font-size: 12px;
+    font-size: 10px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .date-tintuc {
     color: gray;
-    font-size: 12px;
+    font-size: 9px;
     font-weight: 300;
 }
 
@@ -156,7 +155,7 @@
     font-weight: 700;
 }
 
-.box-tintuc-list-left .col-md-8 span {
+.box-tintuc-list-left .col-md-8 .text-news-new {
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 4;
@@ -170,7 +169,7 @@
 }
 
 .date-tintucs i, .date-tintucs span {
-    margin: 0;
+    margin: 0px 2px ;
 }
 
 .box-tintuc-bottom .title-bottom {
@@ -212,4 +211,7 @@
 .tintuc-list-bottom .col-md-9 .price-bottom {
     font-weight: 700;
     font-size: 13px;
+}
+.tintuc-list-new .fix-width .row .col{
+    height:100%;
 }

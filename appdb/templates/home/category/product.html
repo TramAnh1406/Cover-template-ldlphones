@@ -101,7 +101,7 @@
                             {% endfor %}
                         </div>
                         <a href="">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus"
+                            <svg style="margin-right:5px;" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus"
                                 width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
                                 stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -109,7 +109,55 @@
                                 <line x1="9" y1="12" x2="15" y2="12" />
                                 <line x1="12" y1="9" x2="12" y2="15" />
                             </svg>
-                            <span style="color: #2f80ed; font-weight: 500">So sánh</span>
+                            <span style="color: #2f80ed; font-weight: 400">So sánh</span>
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+            <div class="pagination-category">
+                <a href="" class="active">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">></a>
+            </div>
+        </div>
+        <div class="row rows">
+            {% for b in range(3) %}
+            <div class="col-md-12">
+                {% for a in range(3) %}
+                <div class="box-product-hotsale">
+                    <a href="/detail-product">
+                        <img src="{{url_for('static',filename='images/iphone-web.jpg')}}" alt="">
+                    </a>
+                    <div class="profile-product-hotsale">
+                        <a href="/detail-product">IPhone 13 Pro Max 1TB - Chính Hãng</a>
+                        <span class="price-product-hotsale">37.990.000VND</span>
+                        <span class="box-hidden">
+                            [HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ
+                        </span>
+                        <div class="star-rate">
+                            {% for b in range(5) %}
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="14"
+                                height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                            </svg>
+                            {% endfor %}
+                        </div>
+                        <a href="">
+                            <svg style="margin-right:5px;" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus"
+                                width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="12" cy="12" r="9" />
+                                <line x1="9" y1="12" x2="15" y2="12" />
+                                <line x1="12" y1="9" x2="12" y2="15" />
+                            </svg>
+                            <span style="color: #2f80ed; font-weight: 400">So sánh</span>
                         </a>
                     </div>
                 </div>

@@ -6,9 +6,9 @@
 }
 
 .banner-slide .fix-width .row .col-md-9 {
+	padding: 0;
 	height: 470px;
 	background: #FFF;
-	padding: 0px 20px;
 	position: relative;
 	box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
 }
@@ -68,16 +68,16 @@
 
 .swiper-pagination-bullet {
 	padding: 10px;
-	border-radius: 0 !important;
-	width: 182px !important;
-	height: 90px !important;
-	text-align: center;
-	line-height: 30px;
-	font-size: 15px;
-	color: #000;
-	font-weight: 500;
-	opacity: 1 !important;
-	background: #FFF !important;
+    border-radius: 0 !important;
+    width: 176px !important;
+    height: 90px !important;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+    opacity: 1 !important;
+    background: #FFF !important;
 }
 
 .swiper-pagination-bullet-active {

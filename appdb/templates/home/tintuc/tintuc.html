@@ -54,7 +54,7 @@
 <section class="tintuc-list-new">
     <div class="container fix-width">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 col">
                 <h3>Tin mới nhất</h3>
                 {% for a in range(10) %}
                 <div class="box-tintuc-list-left">
@@ -68,15 +68,14 @@
                             <span>23/10/2021</span>
                         </div>
                         <div class="line-list"></div>
-                        <span>Có rất nhiều trường hợp người dùng vô tình óa bỏ đi những hình ảnh đang lưu trữ trong mục
+                        <span class="text-news-new">Có rất nhiều trường hợp người dùng vô tình óa bỏ đi những hình ảnh đang lưu trữ trong mục
                             Ảnh trên IPhone. Lúc này đây bạn mới chợt nhớ ra là mình cần phải sử dụng những hình ảnh này
                             thì những thông tin</span>
                     </div>
                 </div>
                 {%endfor%}
-
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col">
                 <div class="box-tintuc-right">
                     <h3>Đánh giá</h3>
                     {% for a in range(8) %}

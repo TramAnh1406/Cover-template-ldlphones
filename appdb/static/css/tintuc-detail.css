@@ -73,7 +73,7 @@
 }
 
 .content-tintuc .fix-width .row .col-md-8 {
-    padding: 40px 0px;
+    padding: 40px 10px;
 }
 
 .content-tintuc .fix-width .row .col-md-8 h5 {
@@ -141,7 +141,7 @@
 }
 
 .list-tintuc-detail {
-    padding: 40px 0px;
+    padding: 40px 10px;
 }
 
 .list-tintuc-detail .box-tintuc-detail .col-md-7, .list-tintuc-detail .box-tintuc-detail .col-md-5 {

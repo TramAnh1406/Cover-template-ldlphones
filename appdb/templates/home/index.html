@@ -33,14 +33,49 @@
                         </div>
                         <a href="">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus"
-                                width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                width="16" height="16" viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
                                 stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                 <circle cx="12" cy="12" r="9" />
                                 <line x1="9" y1="12" x2="15" y2="12" />
                                 <line x1="12" y1="9" x2="12" y2="15" />
                             </svg>
-                            <span style="color: #2f80ed; font-weight: 500">So sánh</span>
+                            <span style="color: #2f80ed; font-weight: 400">So sánh</span>
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="row rows">
+            <div class="col-md-12">
+                {% for a in range(3) %}
+                <div class="box-product-hotsale">
+                    <img src="{{url_for('static',filename='images/iphone-web.jpg')}}" alt="">
+                    <div class="profile-product-hotsale">
+                        <a href="">IPhone 13 Pro Max 1TB - Chính Hãng</a>
+                        <span class="price-product-hotsale">37.990.000VND</span>
+                        <div class="star-rate">
+                            {% for b in range(5) %}
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="14"
+                                height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                            </svg>
+                            {% endfor %}
+                        </div>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus"
+                                width="16" height="16" viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="12" cy="12" r="9" />
+                                <line x1="9" y1="12" x2="15" y2="12" />
+                                <line x1="12" y1="9" x2="12" y2="15" />
+                            </svg>
+                            <span style="color: #2f80ed; font-weight: 400">So sánh</span>
                         </a>
                     </div>
                 </div>
@@ -116,7 +151,7 @@
                                 </div>
                                 <a href="">
                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="icon icon-tabler icon-tabler-circle-plus" width="14" height="14"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
                                         viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
                                         stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -124,7 +159,7 @@
                                         <line x1="9" y1="12" x2="15" y2="12" />
                                         <line x1="12" y1="9" x2="12" y2="15" />
                                     </svg>
-                                    <span style="color: #2f80ed; font-weight: 500">So sánh</span>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
                                 </a>
                             </div>
                         </div>
@@ -150,7 +185,7 @@
                                 </div>
                                 <a href="">
                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="icon icon-tabler icon-tabler-circle-plus" width="14" height="14"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
                                         viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
                                         stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -158,7 +193,75 @@
                                         <line x1="9" y1="12" x2="15" y2="12" />
                                         <line x1="12" y1="9" x2="12" y2="15" />
                                     </svg>
-                                    <span style="color: #2f80ed; font-weight: 500">So sánh</span>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="flex-product products">
+                        {% for a in range(4) %}
+                        <div class="box-product-hotsale">
+                            <img src="{{url_for('static',filename='images/iphone-web.jpg')}}" alt="">
+                            <div class="profile-product-hotsale">
+                                <a href="">IPhone 13 Pro Max 1TB - Chính Hãng</a>
+                                <span class="price-product-hotsale">37.990.000VND</span>
+                                <div class="star-rate">
+                                    {% for b in range(5) %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    {% endfor %}
+                                </div>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
+                                        viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <circle cx="12" cy="12" r="9" />
+                                        <line x1="9" y1="12" x2="15" y2="12" />
+                                        <line x1="12" y1="9" x2="12" y2="15" />
+                                    </svg>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="flex-product products">
+                        {% for a in range(4) %}
+                        <div class="box-product-hotsale">
+                            <img src="{{url_for('static',filename='images/iphone-web.jpg')}}" alt="">
+                            <div class="profile-product-hotsale">
+                                <a href="">IPhone 13 Pro Max 1TB - Chính Hãng</a>
+                                <span class="price-product-hotsale">37.990.000VND</span>
+                                <div class="star-rate">
+                                    {% for b in range(5) %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    {% endfor %}
+                                </div>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
+                                        viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <circle cx="12" cy="12" r="9" />
+                                        <line x1="9" y1="12" x2="15" y2="12" />
+                                        <line x1="12" y1="9" x2="12" y2="15" />
+                                    </svg>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
                                 </a>
                             </div>
                         </div>
@@ -202,7 +305,7 @@
                                 </div>
                                 <a href="">
                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="icon icon-tabler icon-tabler-circle-plus" width="14" height="14"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
                                         viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
                                         stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -210,7 +313,7 @@
                                         <line x1="9" y1="12" x2="15" y2="12" />
                                         <line x1="12" y1="9" x2="12" y2="15" />
                                     </svg>
-                                    <span style="color: #2f80ed; font-weight: 500">So sánh</span>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
                                 </a>
                             </div>
                         </div>
@@ -236,7 +339,7 @@
                                 </div>
                                 <a href="">
                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="icon icon-tabler icon-tabler-circle-plus" width="14" height="14"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
                                         viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
                                         stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -244,7 +347,75 @@
                                         <line x1="9" y1="12" x2="15" y2="12" />
                                         <line x1="12" y1="9" x2="12" y2="15" />
                                     </svg>
-                                    <span style="color: #2f80ed; font-weight: 500">So sánh</span>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="flex-product products">
+                        {% for a in range(4) %}
+                        <div class="box-product-hotsale">
+                            <img src="{{url_for('static',filename='images/MACBOOK-AIR-GRAY.jpg')}}" alt="">
+                            <div class="profile-product-hotsale">
+                                <a href="">MacBook Air 13" M1 LATE 2020 512GB - RAM 8GB | Chính hãng Apple</a>
+                                <span class="price-product-hotsale">29.790.000VND</span>
+                                <div class="star-rate">
+                                    {% for b in range(5) %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    {% endfor %}
+                                </div>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
+                                        viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <circle cx="12" cy="12" r="9" />
+                                        <line x1="9" y1="12" x2="15" y2="12" />
+                                        <line x1="12" y1="9" x2="12" y2="15" />
+                                    </svg>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="flex-product products">
+                        {% for a in range(4) %}
+                        <div class="box-product-hotsale">
+                            <img src="{{url_for('static',filename='images/MACBOOK-AIR-GRAY.jpg')}}" alt="">
+                            <div class="profile-product-hotsale">
+                                <a href="">MacBook Air 13" M1 LATE 2020 512GB - RAM 8GB | Chính hãng Apple</a>
+                                <span class="price-product-hotsale">29.790.000VND</span>
+                                <div class="star-rate">
+                                    {% for b in range(5) %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    {% endfor %}
+                                </div>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
+                                        viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <circle cx="12" cy="12" r="9" />
+                                        <line x1="9" y1="12" x2="15" y2="12" />
+                                        <line x1="12" y1="9" x2="12" y2="15" />
+                                    </svg>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
                                 </a>
                             </div>
                         </div>
@@ -290,7 +461,7 @@
                                 </div>
                                 <a href="">
                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="icon icon-tabler icon-tabler-circle-plus" width="14" height="14"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
                                         viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
                                         stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -298,7 +469,7 @@
                                         <line x1="9" y1="12" x2="15" y2="12" />
                                         <line x1="12" y1="9" x2="12" y2="15" />
                                     </svg>
-                                    <span style="color: #2f80ed; font-weight: 500">So sánh</span>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
                                 </a>
                             </div>
                         </div>
@@ -324,7 +495,7 @@
                                 </div>
                                 <a href="">
                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="icon icon-tabler icon-tabler-circle-plus" width="14" height="14"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
                                         viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
                                         stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -332,7 +503,75 @@
                                         <line x1="9" y1="12" x2="15" y2="12" />
                                         <line x1="12" y1="9" x2="12" y2="15" />
                                     </svg>
-                                    <span style="color: #2f80ed; font-weight: 500">So sánh</span>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="flex-product products">
+                        {% for a in range(4) %}
+                        <div class="box-product-hotsale">
+                            <img src="{{url_for('static',filename='images/GEN-9.jpg')}}" alt="">
+                            <div class="profile-product-hotsale">
+                                <a href="">IPad Gen 9 10.2inch 2021 64GB | Wifi | Chính hãng Apple</a>
+                                <span class="price-product-hotsale">9.090.000VND</span>
+                                <div class="star-rate">
+                                    {% for b in range(5) %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    {% endfor %}
+                                </div>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
+                                        viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <circle cx="12" cy="12" r="9" />
+                                        <line x1="9" y1="12" x2="15" y2="12" />
+                                        <line x1="12" y1="9" x2="12" y2="15" />
+                                    </svg>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="flex-product products">
+                        {% for a in range(4) %}
+                        <div class="box-product-hotsale">
+                            <img src="{{url_for('static',filename='images/GEN-9.jpg')}}" alt="">
+                            <div class="profile-product-hotsale">
+                                <a href="">IPad Gen 9 10.2inch 2021 64GB | Wifi | Chính hãng Apple</a>
+                                <span class="price-product-hotsale">9.090.000VND</span>
+                                <div class="star-rate">
+                                    {% for b in range(5) %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    {% endfor %}
+                                </div>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
+                                        viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <circle cx="12" cy="12" r="9" />
+                                        <line x1="9" y1="12" x2="15" y2="12" />
+                                        <line x1="12" y1="9" x2="12" y2="15" />
+                                    </svg>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
                                 </a>
                             </div>
                         </div>
@@ -377,7 +616,7 @@
                                 </div>
                                 <a href="">
                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="icon icon-tabler icon-tabler-circle-plus" width="14" height="14"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
                                         viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
                                         stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -385,7 +624,7 @@
                                         <line x1="9" y1="12" x2="15" y2="12" />
                                         <line x1="12" y1="9" x2="12" y2="15" />
                                     </svg>
-                                    <span style="color: #2f80ed; font-weight: 500">So sánh</span>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
                                 </a>
                             </div>
                         </div>
@@ -411,7 +650,7 @@
                                 </div>
                                 <a href="">
                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="icon icon-tabler icon-tabler-circle-plus" width="14" height="14"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
                                         viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
                                         stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -419,7 +658,75 @@
                                         <line x1="9" y1="12" x2="15" y2="12" />
                                         <line x1="12" y1="9" x2="12" y2="15" />
                                     </svg>
-                                    <span style="color: #2f80ed; font-weight: 500">So sánh</span>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="flex-product products">
+                        {% for a in range(4) %}
+                        <div class="box-product-hotsale">
+                            <img src="{{url_for('static',filename='images/applewatch.jpg')}}" alt="">
+                            <div class="profile-product-hotsale">
+                                <a href="">Apple Watch Series 6 40mm FPS (New)</a>
+                                <span class="price-product-hotsale">10.590.000 VND</span>
+                                <div class="star-rate">
+                                    {% for b in range(5) %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    {% endfor %}
+                                </div>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
+                                        viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <circle cx="12" cy="12" r="9" />
+                                        <line x1="9" y1="12" x2="15" y2="12" />
+                                        <line x1="12" y1="9" x2="12" y2="15" />
+                                    </svg>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="flex-product products">
+                        {% for a in range(4) %}
+                        <div class="box-product-hotsale">
+                            <img src="{{url_for('static',filename='images/applewatch.jpg')}}" alt="">
+                            <div class="profile-product-hotsale">
+                                <a href="">Apple Watch Series 6 40mm FPS (New)</a>
+                                <span class="price-product-hotsale">10.590.000 VND</span>
+                                <div class="star-rate">
+                                    {% for b in range(5) %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    {% endfor %}
+                                </div>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
+                                        viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <circle cx="12" cy="12" r="9" />
+                                        <line x1="9" y1="12" x2="15" y2="12" />
+                                        <line x1="12" y1="9" x2="12" y2="15" />
+                                    </svg>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
                                 </a>
                             </div>
                         </div>
@@ -462,7 +769,7 @@
                                 </div>
                                 <a href="">
                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="icon icon-tabler icon-tabler-circle-plus" width="14" height="14"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
                                         viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
                                         stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -470,7 +777,7 @@
                                         <line x1="9" y1="12" x2="15" y2="12" />
                                         <line x1="12" y1="9" x2="12" y2="15" />
                                     </svg>
-                                    <span style="color: #2f80ed; font-weight: 500">So sánh</span>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
                                 </a>
                             </div>
                         </div>
@@ -496,7 +803,7 @@
                                 </div>
                                 <a href="">
                                     <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="icon icon-tabler icon-tabler-circle-plus" width="14" height="14"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
                                         viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
                                         stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -504,7 +811,75 @@
                                         <line x1="9" y1="12" x2="15" y2="12" />
                                         <line x1="12" y1="9" x2="12" y2="15" />
                                     </svg>
-                                    <span style="color: #2f80ed; font-weight: 500">So sánh</span>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="flex-product products">
+                        {% for a in range(4) %}
+                        <div class="box-product-hotsale">
+                            <img src="{{url_for('static',filename='images/600_unnamed.jpg')}}" alt="">
+                            <div class="profile-product-hotsale">
+                                <a href="">Cáp sạc nhanh IPhone 18W chính hãng (USB-C to Lightning)</a>
+                                <span class="price-product-hotsale">400.000VND</span>
+                                <div class="star-rate">
+                                    {% for b in range(5) %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    {% endfor %}
+                                </div>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
+                                        viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <circle cx="12" cy="12" r="9" />
+                                        <line x1="9" y1="12" x2="15" y2="12" />
+                                        <line x1="12" y1="9" x2="12" y2="15" />
+                                    </svg>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
+                                </a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="flex-product products">
+                        {% for a in range(4) %}
+                        <div class="box-product-hotsale">
+                            <img src="{{url_for('static',filename='images/600_unnamed.jpg')}}" alt="">
+                            <div class="profile-product-hotsale">
+                                <a href="">Cáp sạc nhanh IPhone 18W chính hãng (USB-C to Lightning)</a>
+                                <span class="price-product-hotsale">400.000VND</span>
+                                <div class="star-rate">
+                                    {% for b in range(5) %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                        width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                    </svg>
+                                    {% endfor %}
+                                </div>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-circle-plus" width="16" height="16"
+                                        viewBox="0 0 24 24" stroke-width="1" stroke="#2f80ed" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <circle cx="12" cy="12" r="9" />
+                                        <line x1="9" y1="12" x2="15" y2="12" />
+                                        <line x1="12" y1="9" x2="12" y2="15" />
+                                    </svg>
+                                    <span style="color: #2f80ed; font-weight: 400">So sánh</span>
                                 </a>
                             </div>
                         </div>
