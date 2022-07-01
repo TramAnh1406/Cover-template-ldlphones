@@ -17,7 +17,7 @@
 <section class="content-tintuc">
     <div class="container fix-width">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 col">
                 <div class="content">
                     <header id="header">
                         <div class="header-box">
@@ -228,7 +228,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col">
                 <div class="list-tintuc-detail">
                     {% for item in range(8)%}
                     <div class="box-tintuc-detail">
@@ -243,6 +243,33 @@
                         <div class="col-md-5">
                             <img src="{{url_for('static',filename='images/co-the-tai-ch-play-cho-iphone-hay-khong-1.jpg')}}"
                                 alt="">
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="box-tintuc-bottom">
+                    <div class="title-bottom">
+                        <h3>Sản phẩm</h3>
+                    </div>
+                    {% for b in range(7)%}
+                    <div class="tintuc-list-bottom">
+                        <div class="col-md-3">
+                            <img src="{{url_for('static', filename='images/MACBOOK-AIR-GRAY.jpg')}}" alt="">
+                        </div>
+                        <div class="col-md-9">
+                            <span class="name-product">Macbook Pro 16" 2020 i9 - 1TB | Chính hãng Apple</span>
+                            <div class="star-rate">
+                                {% for b in range(5) %}
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star"
+                                    width="14" height="14" viewBox="0 0 24 24" stroke-width="1" stroke="#ffa500"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                                </svg>
+                                {% endfor %}
+                            </div>
+                            <span class="price-bottom">66.790.000 VND</span>
                         </div>
                     </div>
                     {% endfor %}

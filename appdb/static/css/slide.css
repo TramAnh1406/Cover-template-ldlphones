@@ -83,7 +83,7 @@
 .swiper-pagination-bullet-active {
 	font-weight: 700;
 	color: #000;
-	border-bottom: 4px solid orange;
+	border-bottom: 4px solid #F58634;
 }
 
 .swiper-button-prev, .swiper-button-next {

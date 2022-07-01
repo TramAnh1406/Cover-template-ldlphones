@@ -8,7 +8,7 @@ def home():
     return render_template('home/index.html')
 
 
-@app.route("/contact")
+@app.route("/lien-he")
 def contact():
     return render_template('home/contact/contact.html')
 
@@ -18,7 +18,7 @@ def category():
     return render_template('home/category/product.html')
 
 
-@app.route("/detail-product")
+@app.route("/chitiet-sanpham")
 def detailproduct():
     return render_template('home/category/product-detail.html')
 

@@ -8,6 +8,10 @@ var mySwiper = new Swiper('.swiper-container', {
       return '<span class="' + className + '">' + (menu[index]) + '<br>' + (menuTitle[index]) + '</span>';
     },
   },
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
 
   navigation: {
     nextEl: '.swiper-button-next',
