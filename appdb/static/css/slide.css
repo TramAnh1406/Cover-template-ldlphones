@@ -1,13 +1,17 @@
 .box-item-banner img {
 	width: 100%;
-	padding: 10px 0px;
+	/* padding: 10px 0px; */
 	height: 160px;
 
 }
-
+.box-item-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .banner-slide .fix-width .row .col-md-9 {
 	padding: 0;
-	height: 470px;
+	/* height: 470px; */
 	background: #FFF;
 	position: relative;
 	box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
@@ -26,7 +30,7 @@
 }
 
 .banner-slide .fix-width .row .col-md-9 img {
-	padding-top: 15px;
+	/* padding-top: 15px; */
 	width: 100%;
 	height: 80%;
 	position: absolute;
