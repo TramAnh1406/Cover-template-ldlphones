@@ -632,3 +632,6 @@ option {
     width: 20px;
     height: 20px;
 }
+.icon-scroll-top{
+    cursor: pointer;
+}
