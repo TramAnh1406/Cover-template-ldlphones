@@ -786,6 +786,22 @@
 
 
 @media screen and (max-width:420px) {
+    .active .icon-menu-mb .menu-close {
+        top: -300px;
+        right: 15px;
+    }
+    .banner-slide .fix-width .row .col-md-9 img {
+        height: 100%;
+    }
+
+    .banner-slide .fix-width .row .col-md-9 {
+        height: 240px;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
     .menu-mb-contact-bottom {
         display: flex;
     }
