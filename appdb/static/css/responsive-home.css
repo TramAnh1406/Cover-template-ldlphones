@@ -146,7 +146,7 @@
 
     .text_list a {
         font-size: 16px;
-        line-height: 1.3;
+        line-height: 1;
     }
 
     .box-uudai h1 {
@@ -243,6 +243,16 @@
 
 
 @media screen and (max-width: 1024px) {
+
+    .icon-ring-img-circle a i {
+        font-size: 14px;
+    }
+
+    .icon-ring-img-circle a img {
+        width: 17px;
+        height: 17px;
+    }
+
     .swiper-pagination-bullet {
         width: 184px !important;
     }
@@ -474,6 +484,22 @@
 
 
 @media screen and (max-width: 768px) {
+    .icon-scroll-top {
+        display: none;
+    }
+
+    .text-sm span {
+        font-size: 9px;
+    }
+
+    .text-l h5 {
+        font-size: 16px;
+    }
+
+    .tintuc .fix-width .row .col-md-7 .box-slide-bottom .col-md-4 h4 {
+        font-size: 12px;
+    }
+
     #menu-mb {
         display: flex;
     }
@@ -527,6 +553,38 @@
 
     .icon-menu-mb {
         display: block;
+    }
+
+    .active .icon-menu-mb .menu-close {
+        position: absolute;
+        display: block !important;
+        top: -350px;
+        right: 20px;
+        font-size: 30px;
+        color: #8d8b8b;
+    }
+
+    .active .icon-menu-mb .menu-close:hover {
+        color: #000;
+        transition: all .2s;
+    }
+
+    .active .icon-menu-mb {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        z-index: 11111;
+        background: #fff;
+        opacity: 0.95;
+    }
+
+    .active .icon-menu-mb .fix-width {
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .list-customers {
@@ -667,7 +725,7 @@
     }
 
     .box-tintuc-list .col-md-7 h4 {
-        font-size: 18px;
+        font-size: 13px;
     }
 
     .date-tintuc, .date-tintucs {
@@ -720,10 +778,38 @@
     .box-tintuc-detail .col-md-7 h4 {
         font-size: 18px;
     }
+
+    .box-item-banner {
+        flex-direction: row;
+    }
 }
 
 
 @media screen and (max-width:420px) {
+    .menu-mb-contact-bottom {
+        display: flex;
+    }
+
+    #contact-link {
+        display: none;
+    }
+
+    .tintuc .fix-width .row .col-md-7 .box-slide-bottom .col-md-4 h4 {
+        font-size: 11px;
+    }
+
+    .box-tintuc-slide .line-b {
+        left: 23px;
+    }
+
+    .text-l, .text-sm {
+        left: 20px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
     .list-icon-mb {
         grid-template-columns: repeat(4, 1fr);
     }

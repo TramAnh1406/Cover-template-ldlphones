@@ -7,8 +7,9 @@
 {% endblock %}
 <section class="icon-menu-mb">
     <div class="container fix-width">
+        <i class="menu-close fa-solid fa-xmark"></i>
         <div class="list-icon-mb">
-            <div class="icon-mb">
+            <div class="icon-mb" data-aos="fade-down" data-aos-duration="1000">
                 <img src="{{url_for('static', filename='images/menu-icon-1.png')}}" alt="">
                 <h1>IPhone</h1>
             </div>
@@ -1241,4 +1242,59 @@
             </div>
         </div>
 </section>
+<div id="contact-link" class="icon-contact-ring">
+    <div class="icon-ring-circle"></div>
+    <div class="icon-ring-circle-fill"></div>
+    <div class="icon-ring-img-circle">
+        <a href="">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+    </div>
+</div>
+<div id="contact-link" class="icon-contact-ring icon-mess">
+    <div class="icon-ring-circle"></div>
+    <div class="icon-ring-circle-fill"></div>
+    <div class="icon-ring-img-circle">
+        <a href="">
+            <img src="{{url_for('static',filename='images/messenger-1.png')}}" alt="">
+        </a>
+    </div>
+</div>
+<div id="contact-link" class="icon-contact-ring icon-zalo">
+    <div class="icon-ring-circle"></div>
+    <div class="icon-ring-circle-fill"></div>
+    <div class="icon-ring-img-circle">
+        <a href="">
+            <img src="{{url_for('static',filename='images/zaloChatItem.png')}}" alt="">
+        </a>
+    </div>
+</div>
+<div id="contact-link" class="icon-scroll-top">
+    <svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 9L8.29289 1.70711C8.68342 1.31658 9.31658 1.31658 9.70711 1.70711L17 9" stroke="#f58634"
+            stroke-width="2" stroke-linecap="round" />
+    </svg>
+</div>
+<div class="menu-mb-contact-bottom">
+    <div class="icon-ring-mb">
+        <a href="">
+            <i class="fa-solid fa-phone"></i>
+            Gọi điện
+        </a>
+    </div>
+    <div class="icon-zalo-mb">
+        <a href="">
+            <img src="{{url_for('static',filename='images/messenger-1.png')}}" alt="">
+            Zalo
+        </a>
+    </div>
+    <div class="icon-mess-mb">
+        <a href="">
+            <img src="{{url_for('static',filename='images/zaloChatItem.png')}}" alt="">
+            Messenger
+        </a>
+    </div>
+</div>
+
+
 {% endblock %}
